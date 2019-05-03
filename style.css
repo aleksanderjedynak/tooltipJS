@@ -25,10 +25,25 @@ img {
 .box{
     width: 800px;
     margin: 0 auto;
+    position: relative;
 }
 
 .box p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     padding: 25px 0px;
+}
+
+
+.tooltip{
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 30px;
+    background: #909dc3;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 6px;
+    position: absolute;
 }
